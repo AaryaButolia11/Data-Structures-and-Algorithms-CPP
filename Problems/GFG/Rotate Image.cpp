@@ -40,5 +40,4 @@ After transposing, to achieve a 90-degree clockwise rotation,
 we need to reverse the elements of each row.
 This mirrors the matrix horizontally, finalizing the rotation.
 */
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-New File at Problems/leetcode · AaryaButolia11/DSA-CPP
+
