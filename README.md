@@ -1,7 +1,7 @@
 
 # Data-Structures-and-Algorithms-CPP
 
-This repository contains my complete journey of Data Structures and Algorithms (DSA) using C++. It includes solutions to problems from platforms like **LeetCode** and **GeeksforGeeks**, as well as my own notes, practice files, and theory implemented in **VS Code**.
+This repository contains my complete journey of Data Structures and Algorithms (DSA) using C++. It includes solutions to problems from platforms like **LeetCode** and **GeeksforGeeks**, as well as my own notes, practice files and theory implemented in **VS Code**.
 
 ## 🛠 Language & Tools
 
