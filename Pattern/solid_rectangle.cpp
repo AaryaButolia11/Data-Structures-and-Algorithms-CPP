@@ -10,7 +10,7 @@ int main()
     cin >> columns;
     // the outer loop - rows
     for (int i = 0; i < rows; i++)
-    { 
+    {
         // the inner loop - colms
         for (int j = 0; j < columns; j++)
         {
