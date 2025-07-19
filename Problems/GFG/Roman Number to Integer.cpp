@@ -1,4 +1,9 @@
-unordered_map<char,int>m;
+
+class Solution {
+  public:
+    int romanToDecimal(string &s) {
+        // code here
+        unordered_map<char,int>m;
         m['I'] = 1;
         m['V'] = 5;
         m['X'] = 10;
@@ -20,3 +25,5 @@ unordered_map<char,int>m;
             }
         }
         return ans;
+    }
+};
