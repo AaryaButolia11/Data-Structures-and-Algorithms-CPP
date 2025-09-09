@@ -7,7 +7,7 @@ This repository contains my complete journey of Data Structures and Algorithms (
 
 - Language: C++
 - IDE: Visual Studio Code
-- Platforms: LeetCode, GeeksforGeeks
+- Platforms: LeetCode, GeeksforGeeks, CodeForces
 
 ## 🚀 Goals
 
