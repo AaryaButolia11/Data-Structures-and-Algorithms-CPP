@@ -6,3 +6,5 @@
 
 # Ignore build files
 *.out
+
+*.txt
