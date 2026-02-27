@@ -6,7 +6,7 @@ int main()
     int n;
     cin >> n;
     int p[101], ans[101];
-    //Read input
+    //Read Input
     for (int i = 1; i <= n; i++)
     {
         cin >> p[i];
