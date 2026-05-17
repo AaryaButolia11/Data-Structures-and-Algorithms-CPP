@@ -19,7 +19,7 @@ int main()
 
     int binaryNo;
     cout << "Enter your binary no: ";
-
+//input
     cin >> binaryNo;
     cout << "Your decimal equivalent is: " << binaryToDecimal(binaryNo) << endl;
     return 0;
