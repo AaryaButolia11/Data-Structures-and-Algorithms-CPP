@@ -1,3 +1,6 @@
+/* This C++ class implements a divide and conquer algorithm to find the minimum element in a given
+vector of integers. */
+/* This class named Solution is written in C++. */
 /* This class implements a divide and conquer algorithm to find the minimum element in a rotated sorted
 array. */
 class Solution
