@@ -6,32 +6,23 @@ class Solution
 {
 public:
     vector<vector<int>> ans;
-
     void solve(vector<int> &arr, int index)
     {
-
         // Base Case
         if (index >= arr.size())
         {
             ans.push_back(arr);
             return;
         }
-
         unordered_set<int> used;
-
         for (int j = index; j < arr.size(); j++)
         {
-
             // Skip duplicates at current recursion level
             if (used.count(arr[j]))
                 continue;
-
             used.insert(arr[j]);
-
             swap(arr[index], arr[j]);
-
             solve(arr, index + 1);
-
             // Backtracking
             swap(arr[index], arr[j]);
         }
