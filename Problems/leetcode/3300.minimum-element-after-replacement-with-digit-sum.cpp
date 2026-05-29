@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+// T.C : O(n * log10(m)), where n = nums.size(), m = max element in nums
+// S.C : O(1)
 class Solution
 {
 public:
@@ -25,7 +27,7 @@ public:
         // Note that 1 <= nums[i] <= 10^4 and biggest sum can be obtained by 9999 (whose digit sum = 36)
         for (auto &n : nums)
         {
-            int sum = digitSum(n);
+            int sum = digitSum(n); // 0(log10(n))
             // select minimum sum among all the sums obtained by replacing each element with its digit sum.
             minSum = min(minSum, sum);
         }
