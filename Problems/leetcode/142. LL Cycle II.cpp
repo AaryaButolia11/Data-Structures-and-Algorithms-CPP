@@ -40,3 +40,21 @@ public:
         return slow;
     }
 };
+
+// Why resetting slow = head works
+
+//     Let :
+
+//     A = distance from head to cycle start
+//         B = distance from cycle start to meeting point
+//             C = cycle length
+
+//                 At the meeting point :
+
+//     2(A + B) = A + B + kC A + B = kC
+//                    A = kC−B
+
+//                        This means :
+
+//     Distance from head → cycle start = A
+//         Distance from meeting point → cycle start = kC - B
