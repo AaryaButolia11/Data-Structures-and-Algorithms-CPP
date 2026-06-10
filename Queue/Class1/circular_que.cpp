@@ -38,6 +38,31 @@ public:
             arr[rear] = x;
         }
     }
+
+    void pop()
+    {
+        //  empty
+        if (front == -1)
+        {
+            cout << "Queue is Empty!";
+        }
+        // single ele del
+        else if (front == rear)
+        {
+            arr[front] = -1;
+            front = -1;
+            rear = -1;
+        }
+        // circular nature
+        else if (front == size - 1)
+        {
+            front = 0;
+        }
+        // normal
+        {
+            front++;
+        }
+    }
 };
 int main()
 {
