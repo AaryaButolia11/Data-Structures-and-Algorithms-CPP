@@ -6,7 +6,7 @@ public:
         //total ele in array
         int n = nums.size();
         // define max and min ele
-        int maxEle = INT_MIN;
+        int maxE3691. Maximum Total Subarray Value IIle = INT_MIN;
         int minEle = INT_MAX;
 
         // find max and min ele from array
